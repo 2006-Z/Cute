@@ -18,5 +18,4 @@ cp cute.zsh ~/.zshrc
 sed -i "s/__NAME1__/$name1/g" ~/.zshrc
 sed -i "s/__NAME2__/$name2/g" ~/.zshrc
 printf "\n✨ Cute installed successfully!\n\n"
-printf "Restart terminal or run:\n"
-printf "source ~/.zshrc\n\n"
+printf "Restart terminal or run: zsh"
