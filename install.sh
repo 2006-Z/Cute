@@ -9,6 +9,7 @@ read -p "Your nickname: " name2
 sudo apt update
 sudo apt install -y zsh curl git lolcat bat eza
 sudo snap install tldr
+sudo ln -sf /snap/bin/tldr /usr/bin/tldr
 mkdir -p ~/.zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
     ~/.zsh/zsh-syntax-highlighting
