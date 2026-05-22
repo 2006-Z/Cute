@@ -18,5 +18,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git \
 cp cute.zsh ~/.zshrc
 sed -i "s/__NAME1__/$name1/g" ~/.zshrc
 sed -i "s/__NAME2__/$name2/g" ~/.zshrc
+sudo chsh -s $(which zsh) "$USER"
 printf "\n✨ Cute installed successfully!\n\n"
 printf "Restart terminal or run: zsh\n\n"
