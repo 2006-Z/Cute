@@ -7,36 +7,34 @@
 
 ## ✨ Features
 
-- Pink aesthetic prompt
-- Command success/failure status indicator
-- Autosuggestions
-- Syntax highlighting
-- Better `ls` with eza
-- Better `cat` with bat
-- Custom help command
-- Auto removes failed commands from history
+- 🌸 Cute pink multi-line prompt
+- ⏰ Current time in prompt
+- ✓ / ✘ command status indicator
+- ⚡ Autosuggestions
+- 🎨 Syntax highlighting
+- 📂 Better `ls` with `eza`
+- 📖 Better `cat` with `bat`
+- ☁️ Colorful weather command
+- 💡 Custom `help` command
+- 🧹 Cleaner history by removing failed commands
+- 🎀 Automatic dependency and plugin installation
+- 💖 Personalized nicknames in prompt
 
 
 ---
 
 ## 📦 Installation
 
-Clone repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/2006-Z/Cute.git
 ```
 
-Open folder:
+Open the folder:
 
 ```bash
 cd Cute
-```
-
-Make installer executable:
-
-```bash
-chmod +x install.sh
 ```
 
 Run installer:
@@ -50,7 +48,11 @@ Run installer:
 
 ## 💖 Preview
 
-Coming soon...
+```txt
+╭──────────── ♡ ───── ♡ (✓)
+│ 15:22:32 ❮ luna ღ kai ❯
+╰────────────────────────➜
+```
 
 
 ---
@@ -62,11 +64,24 @@ During installation, Cute asks for:
 - Her nickname
 - Your nickname
 
-And creates a prompt like:
+And automatically creates your personalized prompt.
 
-```txt
-❮ luna ღ kai ❯
-```
+
+---
+
+## 📁 What Cute Changes
+
+Cute installs and configures:
+
+- zsh
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+- eza
+- bat
+- lolcat
+- tldr
+
+It also creates your `.zshrc` automatically.
 
 
 ---
