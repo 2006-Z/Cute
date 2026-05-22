@@ -1,9 +1,14 @@
 #!/bin/bash
+if ! sudo -v; then
+    printf "\n❌ Sudo permission required.\n\n"
+    exit
+fi
 printf "\n🌸 Installing Cute...\n\n"
 read -p "Her nickname: " name1
 read -p "Your nickname: " name2
 sudo apt update
-sudo apt install -y zsh curl git lolcat bat eza tldr
+sudo apt install -y zsh curl git lolcat bat eza
+sudo snap install tldr
 mkdir -p ~/.zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
     ~/.zsh/zsh-syntax-highlighting
